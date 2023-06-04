@@ -1,3 +1,104 @@
-.p {
+p {
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    
+    
+    
 }
+
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;            
+    background-color: #1ABC9C;    
+    color: #fff;                  
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;
+    margin-left: 300px;
+    
+}
+.menu a:hover {
+    background-color: rgb(89, 110, 231);
+}
+
+.latest-article img {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .latest-article {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .latest-article h2 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  
+  .older-articles {
+    flex: 1;
+  }
+  
+  .older-articles h2 {
+    font-size: 18px;
+  }
+  
+  .older-articles ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .older-articles li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+  }
+  
+ 
