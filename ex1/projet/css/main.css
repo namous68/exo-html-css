@@ -5,11 +5,16 @@ p {
     
     
 }
+nav {
+  display: inline-block;
+}
+
+
 
 .menu {
     display: flex;
     padding: 0;
-    background-color: blanchedalmond;
+    
 }
 
 .menu li {
@@ -18,20 +23,20 @@ p {
 
 .menu a {
     display: block;
-    min-width: 120px;
+    width: 150px;
     margin: 0.5rem;               
     padding: 0.4rem 0;            
     text-align: center;            
-    background-color: #1ABC9C;    
-    color: #fff;                  
+    background-color: #f3f8f7;    
+                    
     text-decoration: none;        
-    border: 1px solid #fff;       
+          
     border-radius: 4px;
     margin-left: 300px;
     
 }
 .menu a:hover {
-    background-color: rgb(89, 110, 231);
+    background-color: rgb(114, 119, 143);
 }
 
 .latest-article img {
@@ -43,19 +48,29 @@ p {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #fff;
   }
   
   header {
-    background-color: #333;
+    height: 40px;
+    width: 100%;
+    background-color: #000;
     color: #fff;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   header h1 {
-    margin: 0;
+    font-size: 24px;
+    margin: 0 10px;
+    flex-grow: 1;
   }
   
   .content {
@@ -74,9 +89,15 @@ body {
     margin-left: 20px;
   }
   
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
   
   
-  .older-articles {
+    .older-articles {
     flex: 1;
   }
   
