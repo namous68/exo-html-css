@@ -99,6 +99,7 @@ body {
   width: 70%;
   padding: 10px;
   box-sizing: border-box;
+  margin: 10px;
 }
 
 .article h2 {
@@ -115,6 +116,7 @@ body {
   width: 35%;
   text-align: justify;
   margin-left: 20px;
+  
 }
 
 .article .read-more {
@@ -201,5 +203,6 @@ footer {
   position: absolute;
   bottom: 0%;
 }
+
 
 
