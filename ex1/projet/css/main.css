@@ -68,6 +68,11 @@ p {
   
 }
 
+#aside {
+  
+  transition: ease-out 2s red;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
