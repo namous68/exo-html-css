@@ -5,12 +5,14 @@ header {
   color: #fff;
   display: flex;
   align-items: center;
+  
 }
 
 header h1 {
   font-size: 24px;
   margin: 0 10px;
   flex-grow: 1;
+  
 }
 
 nav {
@@ -31,11 +33,12 @@ nav li {
   background-color: #000;
   color: #fff;
   cursor: pointer;
-  transition: background-color 0.3s;
+  
 }
 
 nav li:hover {
   background-color: #333;
+  transition: ease-out 3s;
 }
 
 nav li a {
