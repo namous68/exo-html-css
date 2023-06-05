@@ -5,22 +5,16 @@ header {
   color: #fff;
   display: flex;
   align-items: center;
-  
+
 }
 
 img {
-width: 500px;
-height: 300px;
-margin-left: 20px;
+  width: 500px;
+  height: 300px;
+  margin-left: 20px;
 }
 
 
-header h1 {
-  font-size: 24px;
-  margin: 0 10px;
-  flex-grow: 1;
-  
-}
 
 nav {
   display: inline-block;
@@ -40,7 +34,7 @@ nav li {
   background-color: #000;
   color: #fff;
   cursor: pointer;
-  
+
 }
 
 nav li:hover {
@@ -58,19 +52,26 @@ p {
   font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
 }
+
 .aside {
   background-color: #928d8d;
-  margin-top: 20px;
-  height: 120px;
-  width: 30%;
+  height: 200px;
   margin-right: 20px;
   border-radius: 10px;
-  
+  margin-top: 20px;
+
 }
 
 #aside {
-  
+
   transition: ease-out 2s red;
+}
+
+.aside>ul {
+  height: 80px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 body {
@@ -80,6 +81,11 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #fff;
+}
+
+.excerpt {
+  padding: 10px;
+  width: 50%;
 }
 
 .content {
@@ -93,30 +99,17 @@ body {
 
 .container {
   display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
 .article {
-  width: 70%;
   padding: 10px;
   box-sizing: border-box;
-  margin: 10px;
 }
 
 .article h2 {
   text-transform: uppercase;
-}
-
-.article img {
-  width: 30%;
-  float: left;
-}
-
-.article .excerpt {
-  float: right;
-  width: 30%;
-  text-align: justify;
-  margin-left: 20px;
-  
 }
 
 .article .read-more {
@@ -136,7 +129,7 @@ body {
   width: 30%;
   padding: 10px;
   margin-top: 20px;
-  
+
   border-radius: 5px;
 }
 
@@ -145,7 +138,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   padding: 1%;
-  
+
 }
 
 .menu li {
@@ -157,7 +150,7 @@ body {
 .menu li a {
   color: #f8f4f4;
   text-decoration: none;
-  
+
 }
 
 .menu li a:hover {
@@ -166,12 +159,12 @@ body {
 
 .footer.right {
   margin-right: 10px;
-  
+
 }
 
 .footer-left {
   float: left;
-  
+
 }
 
 
@@ -186,8 +179,13 @@ body {
 }
 
 @keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
 
 }
 
@@ -204,5 +202,25 @@ footer {
   bottom: 0%;
 }
 
+.container {
+  -webkit-animation: fadein 2s;
+}
 
+@-webkit-keyframes fadein {
 
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0 10px;
+  flex-grow: 1;
+
+}
