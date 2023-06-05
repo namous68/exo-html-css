@@ -143,12 +143,26 @@ body {
   color: #4d4848;
 }
 
+.footer.right {
+  margin-right: 10px;
+  
+}
+
+.footer-left {
+  float: left;
+}
+
 
 
 footer {
-  background-color: #333;
+  background-color: #141414;
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  text-align: right;
   margin-top: 600px;
+  text-shadow: 5px;
+  flex-shrink: 0;
+  box-shadow: 5px;
 }
+
+
