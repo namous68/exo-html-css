@@ -43,6 +43,15 @@ nav li a {
   color: #fff;
 }
 
+.aside {
+  background-color: #928d8d;
+  margin-top: 20px;
+  height: 120px;
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -60,8 +69,6 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-
-
 
 
 
@@ -96,12 +103,12 @@ body {
 }
 
 .article .read-more a {
-  color: red;
+  color: rgb(21, 70, 204);
   text-decoration: none;
 }
 
 .article .read-more a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .menu {
@@ -135,6 +142,8 @@ body {
 .menu li a:hover {
   color: #4d4848;
 }
+
+
 
 footer {
   background-color: #333;

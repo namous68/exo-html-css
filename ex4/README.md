@@ -40,7 +40,6 @@ Vous allez mettre en place la mise en page pour le corp de votre page d'accueil 
 * Au survol, le lien "En savoir plus" doit etre souligné.
 * Le contenu annexe (aside) doit etre tout a droite de la page et doit prendre 30% de la largeur, avec une marge interne de 10px, une marge de 20px en haut et sur fond gris clair
 * Les bords du contenu annexe doivent etre arondis
-* Chaque élément annexe doivent etre les uns sous les autres avec une marge de 5px tout autour.
 * Les éléments annexe doivent etre écris en noir sans soulignement
 * Au survol, les éléments annexe doivent etre souligné
 * Il est recommandé d'utiliser des classes afin de facilité la différenciation entre la page d'accueil et une page d'article (que nous feront plus tard)
