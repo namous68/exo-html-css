@@ -164,6 +164,7 @@ body {
 
 .footer-left {
   float: left;
+  
 }
 
 
@@ -173,10 +174,12 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: right;
-  margin-top: 600px;
+  width: 100%;
   text-shadow: 5px;
   flex-shrink: 0;
   box-shadow: 5px;
+  position: absolute;
+  bottom: 0%;
 }
 
 
