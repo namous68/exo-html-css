@@ -197,9 +197,12 @@ footer {
   width: 100%;
   flex-shrink: 0;
   text-shadow: 5px;
-  box-shadow: 5px;
-  position: relative;
-  bottom: 0%;
+  box-shadow: -1px 0 10px #555;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
 }
 
 .container  {
