@@ -251,3 +251,20 @@ p {
     width: 100%;
   }
 }
+
+img {
+  animation-duration: 3s;
+  animation-name: square-to-circle;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+ 
+  }
+  25%  {
+    border-radius:30% 30% 30% 30%;
+    background:darksalmon;
+  } 
+}
