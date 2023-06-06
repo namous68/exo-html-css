@@ -208,7 +208,7 @@ footer {
 }
 
 .container  {
-  -webkit-animation: fadein 2s;
+  -webkit-animation: fadein 3s;
 }
 
 @-webkit-keyframes fadein {
@@ -233,4 +233,5 @@ header h1 {
 .footer{
   -webkit-animation: fadein 2s;
 }
+
 
