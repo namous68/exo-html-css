@@ -203,12 +203,16 @@ footer {
   flex-shrink: 0;
   text-shadow: 5px;
   box-shadow: -1px 0 10px #555;
+  
+  margin-bottom: 0px;
+  
+}
+
+.footer-index{
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
-  margin-bottom: 0px;
-  
 }
 
 .container  {
