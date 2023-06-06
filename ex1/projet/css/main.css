@@ -82,6 +82,8 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .excerpt {
@@ -200,10 +202,11 @@ footer {
   flex-shrink: 0;
   text-shadow: 5px;
   box-shadow: -1px 0 10px #555;
-  position: fixed;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;
+  margin-bottom: 0px;
   
 }
 
